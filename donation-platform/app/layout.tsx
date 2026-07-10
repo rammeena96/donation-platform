@@ -8,6 +8,7 @@ import SessionWrapper from '@/components/SessionWrapper'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://divinemission.org'),
   title: {
     default: 'Divine Temple Trust - Donate for Temple Construction',
     template: '%s | Divine Temple Trust',
